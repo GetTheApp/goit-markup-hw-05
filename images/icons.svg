@@ -167,10 +167,10 @@
   <path d="M20.0205 8.37371L45.5352 14.6283L34.6845 23.9941L9.16636 17.7365L20.0205 8.37371ZM19.537 6.76672L6 18.4475L35.168 25.5981L48.7016 13.9174L19.537 6.76672Z"/>
   <path d="M36.8091 49.3509L48.7016 39.0863L36.8091 36.1691V49.3509Z"/>
 </symbol>
+
+<!-- Modal Close Icon -->
+<symbol id="icons-modal-close" viewBox="0 0 8 8">
+<path d="M8 0.805714L7.19429 0L4 3.19429L0.805714 0L0 0.805714L3.19429 4L0 7.19429L0.805714 8L4 4.80571L7.19429 8L8 7.19429L4.80571 4L8 0.805714Z" fill="#2E2F42"/>
+</symbol>
   </defs>
 </svg>
-
-
-
- background-image: url(https://s3-alpha-sig.figma.com/img/7c8d/46d4/7e83b6c8ee4603ea892aa8aaebb3c5fe?Expires=1691366400&Signature=V4oEGYkiC1uyj~jhwZ-MTp73mvjvZu6FPVxMqsTGIgZQd6dnmCBkQJXxp4hogs8lJ5T4yjoBeSdLqnyDCQyytooLU~tdKsF~II1ndOHNLJCiSkwbrMDmMEq7WUO1PbrhzNKOr-9Geq8nv7G4c8-v7WQfaO07ZW2myxNUPwLWDo5wHxSAJUM6-O-debSXe07sThrvoj466AaJT0LBqh37Hzj3CFtUVbiKtIb2J69Fc4YVMfM7r6JDamd4k1oxlGE0ZU1sh2DWECz8ThbkzWTZka5~rpsz~cXOvYwpyuabYjGDMHTxFCFP2g9B1byrySxhmGbjMz8kRB2MufOP1205Cw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4), 
-    linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70));
