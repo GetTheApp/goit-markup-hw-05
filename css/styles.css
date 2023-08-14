@@ -604,7 +604,7 @@ body {
 
 .footer-form_label {
     display: block;
-    color: var(--white);
+    color: var(--whitecolor);
     font-weight: 500;
     /* margin-bottom: 16px; */
 }
