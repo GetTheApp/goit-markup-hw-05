@@ -396,6 +396,7 @@ body {
 }
 
 .footerbg {
+    color: var(--whitecolor);
     padding: 100px 0;
     background-color: var(--navyblue);
 }
@@ -596,6 +597,7 @@ body {
 }
 
 .footer-form {
+    flex-direction:column;
     width: 453px;
     height: 80px;
     flex-shrink: 0;
@@ -682,12 +684,12 @@ a.projects-link:hover,a.projects-link:focus{
 }
 
 .modal{
-    padding: 40px;
+    padding: 72px 24px 24px;
     position: absolute;
     top: 50%;
     left: 50%;
-    min-width: 408px;
-    min-height: 584px;
+    width: 408px;
+   
     border-radius: 4px;
     background-color: var(--dairy);
 
@@ -750,6 +752,7 @@ a.projects-link:hover,a.projects-link:focus{
 }
 
 .form-field{
+    margin-bottom:26px;
     display: block; 
     position: relative; 
 }
@@ -769,14 +772,14 @@ a.projects-link:hover,a.projects-link:focus{
 .form-input, 
 .form-textarea{
     width: 100%;
-    margin-bottom: 29px;
+    
     padding: 11px 16px 11px 40px;
     border-radius: 4px;
     border: 1px solid var(--navyblue-modal, rgba(46, 47, 66, 0.40));
     border-radius: 4px;
     line-height: 14px;
     letter-spacing: 0.48px;
-    transition: border color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
     .form-input:hover,
@@ -817,8 +820,8 @@ a.projects-link:hover,a.projects-link:focus{
     }
 
     .form-agreement{
+        font-size: 12px;
         display: flex;
-        justify-content: center;
         align-items: center;
         margin-bottom: 34px;
     }
@@ -826,6 +829,7 @@ a.projects-link:hover,a.projects-link:focus{
     .form-checkbox-icon{
         fill:none;
         margin-right: 7px;
+        border-radius:4px;
         border: 2px solid var(--navyblue-modal, rgba(46, 47, 66, 0.40));
         transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
             background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -842,4 +846,19 @@ a.projects-link:hover,a.projects-link:focus{
         display: block;
         margin: 0 auto;
         margin-top: 20px;
+    }
+
+    .form-terms{
+        color: var(--iriscolor);
+        text-decoration-color: var(--iriscolor);
+        transition: text-decoration-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    }
+    
+    .form-terms:hover,
+    .form-terms:focus{
+        text-decoration-color: transparent;
+    }
+    .text-expanded{
+        display:block;
+        width:105px;
     }
